@@ -6,8 +6,8 @@ const About: React.FC = () => {
     <section id="about" className="px-6 pb-24 pt-16 lg:px-24 lg:pb-32 lg:pt-24">
       {/* Section title */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold text-gray-900 sm:text-5xl">
-          about me
+        <h2 className="text-3xl font-bold text-gray-900 sm:text-7xl">
+          About me
         </h2>
       </div>
 
@@ -25,16 +25,26 @@ const About: React.FC = () => {
         {/* Right: description + buttons */}
         <div className="space-y-6 text-gray-800 md:flex-1 md:ml-12">
           <p className="text-sm leading-relaxed sm:text-base lg:text-lg">
-            I am a developer passionate about building digital experiences that
-            feel smooth, modern, and meaningful. I enjoy working with frontend
-            technologies like React and TypeScript, while also understanding how
-            things work on the backend side.
-          </p>
-
-          <p className="text-sm leading-relaxed sm:text-base lg:text-lg">
-            My focus is on writing clean, maintainable code and turning ideas
-            into real products. I am always learning new tools, patterns, and
-            best practices to deliver better experiences for users.
+            I’m a 20-year-old developer and currently a Systems Analysis and
+            Development student at Uniube. I first started a degree in
+            Information Systems in 2023, and in 2025 I switched to Systems
+            Analysis and Development to focus more on hands-on programming and
+            building real projects. That decision made a big difference: instead
+            of staying only in theory, I’ve been able to turn concepts into
+            working applications and sharpen my skills with modern tools.
+            <br />
+            I care a lot about organizing the code, writing clean, maintainable
+            code and creating interfaces that feel fast, intuitive, attractive
+            and polished. I enjoy working on the front end, thinking about
+            component structure, reusability, and user experience, while also
+            understanding how data flows on the backend. I like collaborating
+            with designers and other developers, discussing trade-offs, and
+            breaking problems into small testable pieces. I like researching and
+            experimenting new things and then sharing what I’ve learned with the
+            others.
+            <br />
+            Feel free to explore my <strong>hard and soft skills</strong> by
+            clicking the buttons below:
           </p>
 
           {/* TODO: open a modal listing hard skills */}
