@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
       <div className="mt-4 flex items-center justify-center px-6 pb-16 lg:px-24">
         <div className="h-[2px] flex-1 bg-black" />
         <span className="mx-6 font-bold uppercase tracking-[0.15em] text-center">
-          Role para explorar
+          Scroll to explore
         </span>
         <div className="h-[2px] flex-1 bg-black" />
       </div>
