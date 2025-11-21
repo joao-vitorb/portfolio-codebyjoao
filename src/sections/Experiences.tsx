@@ -14,7 +14,7 @@ const experiences: Experience[] = [
     id: "exp-1",
     company: "Auster Contabilidade",
     role: "IT Intern",
-    period: "October 2023 – April 2025",
+    period: "October 2023 - April 2025",
     bullets: [
       "Involvement in the development of web platforms and maintenance of existing applications, including creating interfaces in Figma for systems and Power BI dashboards. Focus on clean code, project organization, and version control with Git.",
       "Development of a gamified web application that increased the company’s internal satisfaction rate from 88% to 96%, enabling employees to exchange virtual coins for real rewards. Tech stack: frontend in ReactJS with TypeScript and TailwindCSS; backend in Node.js (Express) with MySQL, JWT authentication, real-time updates with Socket.IO, Redis for caching, and integration with the Feedz API to consume user data and coin balances.",
@@ -27,7 +27,7 @@ const experiences: Experience[] = [
     id: "exp-2",
     company: "Nord Menswear",
     role: "Administrative Assistant",
-    period: "November 2022 – October 2023",
+    period: "November 2022 - October 2023",
     bullets: [
       "Recording sales at the cash register.",
       "Payment of bills and invoice verification.",
