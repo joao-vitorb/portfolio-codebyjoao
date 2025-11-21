@@ -1,11 +1,22 @@
-function Footer() {
+import React from "react";
+
+const Footer: React.FC = () => {
+  const year = new Date().getFullYear();
+
   return (
-    <footer className="border-t border-black py-4">
-      <div className="max-w-5xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-2 text-xs">
-        <span>© {new Date().getFullYear()} Code by Joao. All rights reserved.</span>
+    <footer className="mt-24 bg-gray-800">
+      <div className="h-10 w-full rounded-b-[40px] bg-white" />
+
+      {/* Footer text */}
+      <div className="py-4 text-center text-xs font-medium text-white">
+        <span>© {year}</span>
+        <span className="mx-2">•</span>
+        <span>Joao Vitor Borges</span>
+        <span className="mx-2">•</span>
+        <span>All rights reserved</span>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
