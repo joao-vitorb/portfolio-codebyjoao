@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="mt-24 bg-gray-800">
+    <footer className="mt-24 bg-[#161f30]">
       <div className="h-10 w-full rounded-b-[40px] bg-white" />
 
       {/* Footer text */}

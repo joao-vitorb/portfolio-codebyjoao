@@ -31,17 +31,9 @@ const Contact: React.FC = () => {
     >
       {/* Header */}
       <div className="text-center md:text-left">
-        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-gray-500">
-          Contact
-        </p>
         <h2 className="mt-2 text-3xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
           Get in touch
         </h2>
-        <p className="mt-3 max-w-xl text-sm text-gray-700 sm:text-base">
-          Have a project in mind or just want to say hi? Fill out the form or
-          use the contact details on the right and I will get back to you as
-          soon as possible.
-        </p>
       </div>
 
       {/* Main content */}
