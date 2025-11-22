@@ -51,12 +51,9 @@ const Navbar: React.FC = () => {
   return (
     <header className="fixed inset-x-0 top-5 z-50">
       <nav className="relative flex items-center justify-between px-6 py-3 lg:px-24">
-        {/* Left: logo / initials */}
         <div className="text-3xl font-bold text-slate-900 uppercase">jvb</div>
 
-        {/* Right: actions */}
         <div className="flex items-center gap-5">
-          {/* LET'S TALK */}
           <button
             type="button"
             onClick={() => scrollToSection("contact")}
@@ -79,7 +76,6 @@ const Navbar: React.FC = () => {
             </span>
           </button>
 
-          {/* MENU / CLOSE */}
           <button
             type="button"
             ref={menuButtonRef}
@@ -89,7 +85,6 @@ const Navbar: React.FC = () => {
             }`}
             aria-expanded={isMenuOpen}
           >
-            {/* label com animação vertical */}
             <span className="relative h-6 w-[70px] overflow-hidden">
               <span
                 className={`absolute inset-0 flex items-center text-xl font-semibold tracking-[-0.02em] uppercase transition-all duration-200 ${
@@ -111,7 +106,6 @@ const Navbar: React.FC = () => {
               </span>
             </span>
 
-            {/* dots */}
             <span className="flex h-3 w-3 items-center justify-center">
               <span
                 className={`flex w-full items-center justify-between transition-transform duration-300 ${
@@ -127,7 +121,6 @@ const Navbar: React.FC = () => {
           </button>
         </div>
 
-        {/* DROPDOWN */}
         {isMenuOpen && (
           <div
             ref={dropdownRef}
